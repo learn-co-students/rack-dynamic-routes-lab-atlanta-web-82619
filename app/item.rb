@@ -1,3 +1,5 @@
+require 'pry'
+
 class Item
   attr_accessor :name, :price
 
@@ -6,3 +8,5 @@ class Item
     @price = price
   end
 end
+
+#binding.pry
